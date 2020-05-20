@@ -28,7 +28,7 @@ namespace O_In_Solid
 
             foreach (var emp in employees)
             {
-                Console.WriteLine($"{emp.FirstName} {emp.LastName}: {emp.EmailAddress}");
+                Console.WriteLine($"{emp.FirstName} {emp.LastName}: {emp.EmailAddress} Is Manager: {emp.IsManager}");
             }
 
             Console.ReadLine();
